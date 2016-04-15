@@ -21,6 +21,7 @@ namespace sy2
             Assert.That(output.ToString(), Is.EqualTo("Tom先生(身份证字号c1234234)为本校专任教师，聘期2年。\r\n\r\n\r\n"));
 
         }
+        [Test]
         public void Test2()
         {
             StringReader input = new StringReader("Jolin	a2232343	4年");
